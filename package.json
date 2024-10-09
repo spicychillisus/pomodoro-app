@@ -19,5 +19,8 @@
   "homepage": "https://github.com/spicychillisus/pomodoro-app#readme",
   "devDependencies": {
     "electron": "^32.1.2"
+  },
+  "dependencies": {
+    "express": "^4.21.1"
   }
 }
