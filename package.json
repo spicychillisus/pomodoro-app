@@ -1,0 +1,23 @@
+{
+  "name": "pomodoro-app",
+  "version": "1.0.0",
+  "description": "no idea what this is",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/spicychillisus/pomodoro-app.git"
+  },
+  "author": "spicychillisus",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/spicychillisus/pomodoro-app/issues"
+  },
+  "homepage": "https://github.com/spicychillisus/pomodoro-app#readme",
+  "devDependencies": {
+    "electron": "^32.1.2"
+  }
+}
