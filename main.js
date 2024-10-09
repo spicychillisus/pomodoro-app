@@ -24,3 +24,5 @@ app.whenReady().then(() => {
 app.on('window-all-closed', () => {
     if (process.platform !== 'darwin') app.quit()
 })
+
+// READ MORE ON https://www.electronjs.org/docs/latest/tutorial/quick-start
