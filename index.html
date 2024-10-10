@@ -10,15 +10,36 @@
 <body>
     <div class="container">
         <div class="header">
-            <h1>Pomodoro App</h1>
-            <p>made by spicychillisus</p>
-            <div class="sub-header">
-                <h2>How to use</h2>
-                <p></p>
-            </div>
+            <h1>Study Timer App</h1>
+            <p>made by spicychillisus</p>  
         </div>
-        
-        <div class="sound-controller">
+
+        <div class="timers">
+            <div class="pomodoro-timer">
+                <div class="timer-bar">
+                    
+                </div>
+                <div class="timer">
+                    <span class="minute">
+                        25
+                    </span>
+                    <span>:</span>
+                    <span class="seconds">
+                        00
+                    </span>
+                </div>
+                <button onclick=startTimer() class="start-timer">Start</button> <!-- starts the timer -->
+            </div>
+            <div class="short-break-timer">
+                <button onclick=startTimer() class="start-timer">Start</button> <!-- starts the timer -->
+            </div>
+            <div class="long-break-timer">
+                <button onclick=startTimer() class="start-timer">Start</button> <!-- starts the timer -->
+            </div>
+            
+        </div>
+
+        <div class="tasks">
 
         </div>
     </div>
