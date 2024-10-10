@@ -13,4 +13,14 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
+    flex-direction: column;
 }
+
+.header {
+    line-height: 40%;
+}
+
+.header p {
+    font-size: 1rem;
+}
+

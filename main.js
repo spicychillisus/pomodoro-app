@@ -1,7 +1,6 @@
 // code to run the electron app
 const { app, BrowserWindow } = require('electron');
 const path = require('node:path');
-const expressapp = require('express');
 
 const createWindow = () => {
     const win = new BrowserWindow({
