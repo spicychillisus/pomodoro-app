@@ -22,26 +22,17 @@
 
         <div class="timers">
             <div class="pomodoro-timer">
-                <div class="timer-bar">
-                    
-                </div>
                 <div class="timer">
                     <span id="minute">
-                        
+                        25
                     </span>
                     <span>:</span>
                     <span id="seconds">
                         
                     </span> 
-                    
-                    
-                    
                 </div>
-                
             </div>
-            
-            
-            
+
         </div>
 
         <button onclick=startTimer()>Start</button>
@@ -52,13 +43,21 @@
             <form>
                 <input type="text" name="task" id="task" placeholder="Enter a task">
                 <button type="submit" onclick=addTasks()>Add Task</button>
-                <script src="./public/js/tasks.js" type="text/javascript"></script>
             </form>
             <div class="tasks-display">
                 <!-- idk man -->
                  <!-- example of how the component looks -->
                 <!-- will comment out later on -->
+                 <div class="task-component">
+                    <h2>Task Name</h2>
+                    <div class="task-function-btns">
+                        <button type="button" id="editBtn" onclick=editTask()>Edit</button>
+                        <button type="button" id="deleteBtn" onclick=deleteTask()>Delete</button>
+                    </div>
+                    
+                 </div>
             </div>
+            <script src="./public/js/tasks.js" type="text/javascript"></script>
         </div>
         
         

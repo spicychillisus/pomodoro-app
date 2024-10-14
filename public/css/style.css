@@ -25,6 +25,10 @@ body {
     font-size: 1rem;
 }
 
+.pomodoro-timer {
+    margin-top: 8px;
+}
+
 .timer {
     font-size: 2.5rem;
     font-weight: 600;
@@ -55,6 +59,15 @@ footer {
 .footer-username {
     text-decoration: none;
     
+}
+
+.task-component {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    flex-direction: column;
+    background-color: aquamarine;
 }
 
 
